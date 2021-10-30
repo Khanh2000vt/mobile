@@ -37,7 +37,6 @@ class AdapterData(private var listDonations: List<Donation>) : RecyclerView.Adap
             methodView.text = listDonations[position].method
             amountView.text = listDonations[position].amount.toString()
         }
-
     }
 
     override fun getItemCount(): Int {
